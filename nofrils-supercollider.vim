@@ -71,10 +71,10 @@ hi DiffText		term=reverse	cterm=reverse	ctermfg=NONE	ctermbg=NONE	gui=reverse	gu
 " }}}
 
 " Spell {{{
-hi SpellBad		term=underline	cterm=underline	ctermfg=13	ctermbg=NONE	gui=underline	guifg=#FF00FF	guibg=NONE
-hi SpellCap		term=underline	cterm=underline	ctermfg=13	ctermbg=NONE	gui=underline	guifg=#FF00FF	guibg=NONE
-hi SpellLocal		term=underline	cterm=underline	ctermfg=13	ctermbg=NONE	gui=underline	guifg=#FF00FF	guibg=NONE
-hi SpellRare		term=underline	cterm=underline	ctermfg=13	ctermbg=NONE	gui=underline	guifg=#FF00FF	guibg=NONE
+hi SpellBad		term=underline	cterm=bold	ctermfg=15	ctermbg=NONE	gui=underline	guifg=#FF00FF	guibg=NONE
+hi SpellCap		term=underline	cterm=bold	ctermfg=15	ctermbg=NONE	gui=underline	guifg=#FF00FF	guibg=NONE
+hi SpellLocal		term=underline	cterm=bold	ctermfg=15	ctermbg=NONE	gui=underline	guifg=#FF00FF	guibg=NONE
+hi SpellRare		term=underline	cterm=bold	ctermfg=15	ctermbg=NONE	gui=underline	guifg=#FF00FF	guibg=NONE
 " }}}
 
 " Vim Features {{{
@@ -126,6 +126,9 @@ hi Typedef		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	g
 hi Type		        term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Underlined		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 " }}}
+
+highlight ALEErrorSign ctermfg=15 ctermbg=234 cterm=undercurl
+highlight ALEWarningSign ctermfg=15 ctermbg=NONE
 
 " Optional Syntax Features {{{
 if g:nofrils_strbackgrounds
